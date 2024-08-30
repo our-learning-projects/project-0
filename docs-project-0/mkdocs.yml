@@ -1,0 +1,5 @@
+site_name: Project 0
+nav: 
+  - Home: index.md
+  - About: about.md
+
