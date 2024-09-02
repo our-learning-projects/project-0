@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+# Projeto 0
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+O Projeto 0 tem como objetivo promover o aprendizado a partir do ensino. Para que isso aconteça, o projeto envolve duas partes essenciais:
 
-## Commands
+- Estudo de uma tecnologia;
+- Criação de um repositório para documentar o que foi aprendido em formato de tutorial. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Tecnologias 
 
-## Project layout
+Foi discutido antes do início do projeto que as seguintes tecnologias seriam estudadas:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Docker;
+- PostgreSQL;
+- Java.
+
+## Histórico de Versões
+
+A Tabela 1 registra o histórico de versão desse documento.
+
+|**Data** | **Versão** | **Descrição** | **Autor** | **Revisor** |
+|:---: | :---: | :---: | :---: | :---: |
+| 30/08/2024 | 1.0 | Primeira versão do index. | Brunna Louise | - |
+
+
+<h6 align = "center"> Tabela 1: Histórico de Versões
+<br>Fonte: Autor(es)</h6>
