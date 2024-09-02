@@ -19,7 +19,7 @@ A Tabela 1 registra o histórico de versão desse documento.
 
 |**Data** | **Versão** | **Descrição** | **Autor** | **Revisor** |
 |:---: | :---: | :---: | :---: | :---: |
-| 30/08/2024 | 1.0 | Primeira versão do index. | Brunna Louise | - |
+| 30/08/2024 | 1.0 | Primeira versão do index. | Brunna Louise | Pedro Cabeceira |
 
 
 <h6 align = "center"> Tabela 1: Histórico de Versões
