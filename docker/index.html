@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>About - Project 0</title>
+        <title>Docker - Project 0</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
                                 <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../docker/" class="nav-link">Docker</a>
+                                <a href="./" class="nav-link active" aria-current="page">Docker</a>
                             </li>
                         </ul>
 
@@ -48,6 +48,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -65,12 +75,83 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#docker" class="nav-link">Docker</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#o-que-e-docker" class="nav-link">O que é Docker?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#como-instalar-o-docker" class="nav-link">Como instalar o Docker</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#principais-conceitos-em-docker" class="nav-link">Principais conceitos em Docker</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#docker-file" class="nav-link">Docker file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#docker-compose" class="nav-link">Docker compose</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#bibliografia" class="nav-link">Bibliografia</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#historico-de-versoes" class="nav-link">Histórico de Versões</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="docker">Docker</h1>
+<p>Nessa secção, será apresentado uma visão geral sobre Docker, abordando de conceitos introdutórios e fundamentais que serão utilizados como base para tópicos mais avançados.</p>
+<h2 id="o-que-e-docker">O que é Docker?</h2>
+<p>O Docker é uma aplicação aberta que permite criar, implementar e gerenciar aplicação de forma simples. Ele fornece a capacidade de empacotar e executar aplicações em um ambiente frouxamente isolado chamado de contêineres. Esse isolamento admitir que você execute múltiplos contêiner de simultaneamente em um determinado host. Mas não para por aí, além de conseguir lidar com múltiplos contêineres, uma das principais vantagens de se usar o Docker é a sua portabilidade que aceita rodar a aplicação que estão sendo feita nele em qualquer sistema que o suporta, como isso os desenvolvedores não precisam se preocupar muito com as versões de cada tecnologia de um projeto, pois dentro dos conêineres do docker terá todas as configurações necessárias para se rodar a aplicação desejada.</p>
+<h2 id="como-instalar-o-docker">Como instalar o Docker</h2>
+<h2 id="principais-conceitos-em-docker">Principais conceitos em Docker</h2>
+<!-- Subtítulos -->
+<h3 id="imagens">Imagens</h3>
+<h3 id="conteineres">Contêineres</h3>
+<h3 id="arquitetura-do-docker">Arquitetura do Docker</h3>
+<h4 id="o-daemon-do-docker">O daemon do Docker</h4>
+<h4 id="o-cliente-docker">O cliente Docker</h4>
+<h3 id="principais-comandos">Principais comandos</h3>
+<h2 id="docker-file">Docker file</h2>
+<h2 id="docker-compose">Docker compose</h2>
+<h2 id="bibliografia">Bibliografia</h2>
+<p>1-O QUE é Docker?. [S. l.], 3 set. 2024. Disponível em: https://docs.docker.com/get-started/docker-overview/. Acesso em: 3 set. 2024.</p>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<p>A Tabela 1 registra o histórico de versão desse documento.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Data</strong></th>
+<th align="center"><strong>Versão</strong></th>
+<th align="center"><strong>Descrição</strong></th>
+<th align="center"><strong>Autor</strong></th>
+<th align="center"><strong>Revisor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">03 /09/2024</td>
+<td align="center">1.0</td>
+<td align="center">Adiciona conteúdo do "o que é docker"</td>
+<td align="center">Pedro Cabeceira</td>
+<td align="center">Brunna Louise</td>
+</tr>
+</tbody>
+</table></div>
             </div>
         </div>
 
